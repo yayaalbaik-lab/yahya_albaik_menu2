@@ -674,8 +674,19 @@ function toggleLang() {
   renderMenu();
 }
 
+/* -- track menu event --*/
+function trackMenuEvent(action, label = '') {
+  if (typeof gtag !== "undefined") {
+    gtag('event', action, {
+      event_category: 'menu',
+      event_label: label
+    });
+  }
+}
 /* ── LIGHTBOX ── */
 function openLightbox(src, alt) {
+  trackMenuEvent('click_image', alt);
+
   const lb = document.getElementById('lightbox');
   document.getElementById('lightboxImg').src = src;
   document.getElementById('lightboxImg').alt = alt;
