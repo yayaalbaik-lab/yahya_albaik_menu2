@@ -676,10 +676,9 @@ function toggleLang() {
 
 /* -- track menu event --*/
 function trackMenuEvent(action, label = '') {
-  if (typeof gtag !== "undefined") {
+  if (typeof gtag !== 'undefined') {
     gtag('event', action, {
-      event_category: 'menu',
-      event_label: label
+      item_name: label
     });
   }
 }
