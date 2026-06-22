@@ -408,7 +408,7 @@ const menuData = [
       { name_ar: 'وجبة شاورما سوبر', name_en: 'Super Shawarma Meal', price: 2.7, desc_ar: 'وجبة شاورما على الفحم حجم سوبر', desc_en: 'Super-size charcoal grilled shawarma meal', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/q_auto/f_auto/v1782077006/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D8%B3%D9%88%D8%A8%D8%B1_yb52zu.jpg' },
       { name_ar: 'وجبة شاورما دبل', name_en: 'Double Shawarma Meal', price: 3.25, desc_ar: 'وجبة شاورما على الفحم حجم دبل', desc_en: 'Double-size charcoal grilled shawarma meal', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/q_auto/f_auto/v1782077005/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D8%AF%D8%A8%D9%84_nsc6c2.jpg' },
       { name_ar: 'وجبة شاورما إيطالي', name_en: 'Italian Shawarma Meal', price: 3.25, desc_ar: 'شاورما على الفحم بخبز إيطالي + موزريلا + فطر + زيتون + فلفل', desc_en: 'Charcoal shawarma in Italian bread + mozzarella + mushrooms + olives + pepper', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/q_auto/f_auto/v1782077007/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D8%A5%D9%8A%D8%B7%D8%A7%D9%84%D9%8A_p2ax4b.jpg' },
-      { name_ar: 'وجبة شاورما حلبي', name_en: 'Halabi Shawarma Meal', price: 3.25, desc_ar: 'شاورما على الفحم من السيخ', desc_en: 'Charcoal shawarma straight from the skewer', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/q_auto/f_auto/v1782077001/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D8%A8%D8%B1%D8%A7%D9%8A%D8%B2.jpg_sqidie.jpg' },
+      { name_ar: 'وجبة شاورما حلبي', name_en: 'Halabi Shawarma Meal', price: 3.25, desc_ar: 'شاورما على الفحم من السيخ', desc_en: 'Charcoal shawarma straight from the skewer', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782077004/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D8%AD%D9%84%D8%A8%D9%8A_ss8wqy.jpg' },
       { name_ar: 'وجبة شاورما برايز', name_en: 'Prize Shawarma Meal', price: 2.5, desc_ar: 'خبز فندقي صغير عدد 5 مع 3 أنواع صوص مميزة', desc_en: '5 small hotel buns with 3 special sauces', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/q_auto/f_auto/v1782077001/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D8%A8%D8%B1%D8%A7%D9%8A%D8%B2.jpg_sqidie.jpg' },
       { name_ar: 'ساندوش شاورما عادي', name_en: 'Regular Shawarma Sandwich', price: 0.75, desc_ar: 'ساندوش شاورما على الفحم حجم عادي', desc_en: 'Regular-size charcoal grilled shawarma sandwich', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/q_auto/f_auto/v1782077006/%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%B4_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D8%B9%D8%A7%D8%AF%D9%8A_iajv3s.jpg' },
       { name_ar: 'ساندوش شاورما سوبر', name_en: 'Super Shawarma Sandwich', price: 1.25, desc_ar: 'ساندوش شاورما على الفحم حجم سوبر', desc_en: 'Super-size charcoal grilled shawarma sandwich', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/q_auto/f_auto/v1782077007/%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%B4_%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_%D8%AF%D8%A8%D9%84_xwqktd.jpg' },
@@ -516,14 +516,12 @@ const menuData = [
     name_ar: 'سناكات',
     name_en: 'Snacks',
     items: [
-      { name_ar: 'وجبة زنجر صاج', name_en: 'Zinger Saj Meal', price: 3, desc_ar: 'زنجر على الصاج وجبة كاملة', desc_en: 'Zinger on saj complete meal', img: null },
-      { name_ar: 'ساندوش زنجر صاج', name_en: 'Zinger Saj Sandwich', price: 2, desc_ar: 'ساندوش زنجر مشوي على الصاج', desc_en: 'Grilled zinger sandwich on saj', img: null },
-      { name_ar: 'وجبة سكالوب', name_en: 'Scallop Meal', price: 2.25, desc_ar: 'وجبة سكالوب مقرمشة', desc_en: 'Crispy scallop meal', img: null },
-      { name_ar: 'ساندوش سكالوب', name_en: 'Scallop Sandwich', price: 1.25, desc_ar: 'ساندوش سكالوب مقرمش', desc_en: 'Crispy scallop sandwich', img: null },
-      { name_ar: 'ساندوش بطاطا', name_en: 'Fries Sandwich', price: 1, desc_ar: 'ساندوش بطاطا مقلية', desc_en: 'Crispy fries sandwich', img: null },
-      { name_ar: 'ساندوش بطاطا وشاورما', name_en: 'Fries & Shawarma Sandwich', price: 1.5, desc_ar: 'ساندوش بطاطا مع شاورما', desc_en: 'Fries with shawarma sandwich', img: null },
-      { name_ar: 'علبة بطاطا صغيرة', name_en: 'Small Fries Box', price: 0.75, desc_ar: 'علبة بطاطا مقلية صغيرة', desc_en: 'Small crispy fries box', img: null },
-      { name_ar: 'علبة بطاطا كبيرة', name_en: 'Large Fries Box', price: 1.5, desc_ar: 'علبة بطاطا مقلية كبيرة', desc_en: 'Large crispy fries box', img: null },
+      { name_ar: 'وجبة زنجر صاج', name_en: 'Zinger Saj Meal', price: 3, desc_ar: 'زنجر على الصاج وجبة كاملة', desc_en: 'Zinger on saj complete meal', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782156160/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B2%D9%86%D8%AC%D8%B1_kzthb2.jpg' },
+      { name_ar: 'ساندوش زنجر صاج', name_en: 'Zinger Saj Sandwich', price: 2, desc_ar: 'ساندوش زنجر مشوي على الصاج', desc_en: 'Grilled zinger sandwich on saj', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782156159/%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%B4_%D8%B2%D9%86%D8%AC%D8%B1_gbjp5t.jpg' },
+      { name_ar: 'وجبة سكالوب', name_en: 'Scallop Meal', price: 2.25, desc_ar: 'وجبة سكالوب مقرمشة', desc_en: 'Crispy scallop meal', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782156158/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B3%D9%83%D8%A7%D9%84%D9%88%D8%A8_b2r5fn.jpg'},
+      { name_ar: 'ساندوش سكالوب', name_en: 'Scallop Sandwich', price: 1.25, desc_ar: 'ساندوش سكالوب مقرمش', desc_en: 'Crispy scallop sandwich', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782156160/%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%B4_%D8%B3%D9%83%D8%A7%D9%84%D9%88%D8%A8_b09j98.jpg' },
+      { name_ar: 'ساندوش بطاطا', name_en: 'Fries Sandwich', price: 1, desc_ar: 'ساندوش بطاطا مقلية', desc_en: 'Crispy fries sandwich', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782156160/%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%B4_%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7_pja3zf.jpg' },
+      { name_ar: 'ساندوش بطاطا وشاورما', name_en: 'Fries & Shawarma Sandwich', price: 1.5, desc_ar: 'ساندوش بطاطا مع شاورما', desc_en: 'Fries with shawarma sandwich', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782156161/%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%B4_%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7_%D9%88%D8%B4%D8%A7%D9%88%D8%B1%D9%85%D8%A7_dac1v9.jpg' },
     ]
   },
   {
@@ -531,10 +529,29 @@ const menuData = [
     name_ar: 'مقبلات',
     name_en: 'Starters',
     items: [
-      { name_ar: 'سلطة كولسلو', name_en: 'Coleslaw Salad', price: 0.5, desc_ar: 'سلطة كولسلو طازجة', desc_en: 'Fresh coleslaw salad', img: null },
-      { name_ar: 'علبة مايونيز', name_en: 'Mayonnaise Box', price: 0.5, desc_ar: 'مايونيز كريمي', desc_en: 'Creamy mayonnaise', img: null },
-      { name_ar: 'علبة مخلل', name_en: 'Pickles Box', price: 0.5, desc_ar: 'مخلل متنوع', desc_en: 'Assorted pickles', img: null },
-      { name_ar: 'علبة سلطة عربية', name_en: 'Arabic Salad Box', price: 0.5, desc_ar: 'سلطة عربية طازجة', desc_en: 'Fresh Arabic salad', img: null },
+      { name_ar: 'علبة بطاطا صغيرة', name_en: 'Small Fries Box', price: 0.75, desc_ar: 'علبة بطاطا مقلية صغيرة', desc_en: 'Small crispy fries box', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782157626/%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7_%D8%B5%D8%BA%D9%8A%D8%B1_daywvj.jpg' },
+      { name_ar: 'علبة بطاطا كبيرة', name_en: 'Large Fries Box', price: 1.5, desc_ar: 'علبة بطاطا مقلية كبيرة', desc_en: 'Large crispy fries box', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782157625/%D8%B9%D9%84%D8%A8%D8%A9_%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7_%D9%83%D8%A8%D9%8A%D8%B1_yhve8v.jpg' },
+      { 
+  name_ar: 'علبة بطاطا صغيرة تشيز', 
+  name_en: 'Small Cheese Fries Box', 
+  price: 1, 
+  desc_ar: 'علبة بطاطا مقلية صغيرة مع صوص الجبنة', 
+  desc_en: 'Small crispy fries box with cheese sauce', 
+  img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782157624/%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7_%D8%B5%D8%BA%D9%8A%D8%B1_%D8%AA%D8%B4%D9%8A%D8%B2_b34sdx.jpg' 
+},
+
+{ 
+  name_ar: 'علبة بطاطا كبيرة تشيز', 
+  name_en: 'Large Cheese Fries Box', 
+  price: 2, 
+  desc_ar: 'علبة بطاطا مقلية كبيرة مع صوص الجبنة', 
+  desc_en: 'Large crispy fries box with cheese sauce', 
+  img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782157625/%D8%B9%D9%84%D8%A8%D8%A9_%D8%A8%D8%B7%D8%A7%D8%B7%D8%A7_%D9%83%D8%A8%D9%8A%D8%B1_%D8%AA%D8%B4%D9%8A%D8%B2_dqtws5.jpg' 
+},
+      { name_ar: 'سلطة كولسلو', name_en: 'Coleslaw Salad', price: 0.5, desc_ar: 'سلطة كولسلو طازجة', desc_en: 'Fresh coleslaw salad', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782157624/%D8%B5%D8%AD%D9%86_%D9%83%D9%88%D9%84%D8%B3%D9%84%D9%88_qttq0e.jpg' },
+      { name_ar: 'علبة مايونيز', name_en: 'Mayonnaise Box', price: 0.5, desc_ar: 'مايونيز كريمي', desc_en: 'Creamy mayonnaise', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782157624/%D8%B9%D9%84%D8%A8%D8%A9_%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2_x7ajvw.jpg' },
+      { name_ar: 'علبة مخلل', name_en: 'Pickles Box', price: 0.5, desc_ar: 'مخلل متنوع', desc_en: 'Assorted pickles', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782157624/%D8%B9%D9%84%D8%A8%D8%A9_%D9%85%D8%AE%D9%84%D9%84_dw28xp.jpg' },
+      { name_ar: 'علبة سلطة عربية', name_en: 'Arabic Salad Box', price: 0.5, desc_ar: 'سلطة عربية طازجة', desc_en: 'Fresh Arabic salad', img: 'https://res.cloudinary.com/dko4ta5vq/image/upload/v1782158234/ChatGPT_Image_22_%D9%8A%D9%88%D9%86%D9%8A%D9%88_2026_10_56_13_%D9%85_lydzm8.png' },
     ]
   },
   {
